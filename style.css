@@ -1,0 +1,89 @@
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+- Tomato: hsl(4, 100%, 67%)
+
+ Dark Slate Grey: hsl(234, 29%, 20%)
+- Charcoal Grey: hsl(235, 18%, 26%)
+
+- Grey: hsl(231, 7%, 60%)
+- White: hsl(0, 0%, 100%)
+
+- Font size (paragraph): 16px */
+/*  font-family: 'Roboto', sans-serif; 400 700*/
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+main {
+  background-color: hsl(235, 18%, 26%);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+}
+
+.left-section {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  width: 25rem;
+}
+
+.header h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+}
+
+ul li {
+  display: flex;
+  gap: 1rem;
+}
+ul li img {
+  width: 20px;
+}
+
+form {
+}
+
+.right-section {
+  display: grid;
+  justify-content: end;
+}
+.img-container {
+  padding: 2rem 2rem 2rem 0;
+}

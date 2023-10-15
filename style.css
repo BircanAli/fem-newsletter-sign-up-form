@@ -85,6 +85,11 @@ form label {
   font-weight: 700;
   letter-spacing: 1px;
 }
+
+.alert-container {
+  position: relative;
+}
+
 form input {
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.377);
@@ -175,4 +180,19 @@ form button:hover {
 
 .hidden {
   display: none;
+}
+
+.alert {
+  color: hsl(4, 100%, 67%);
+  border-color: hsl(4, 100%, 67%);
+  background-color: hsla(4, 100%, 67%, 0.187);
+}
+
+.alert-message {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.7rem;
+  color: hsl(4, 100%, 67%);
 }
